@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="puzzle.js" defer></script>
+    <link rel="stylesheet" href="puzzle.css">
+
+</head>
+<body>
+    <header>
+      <h1>Rompecabezas deslizante</h1>
+    </header>
+    <div id = "grid">
+        <ul id="puzzle">
+            <li><button>1</button></li>
+            <li><button>2</button></li>
+            <li><button>3</button></li>
+            <li><button>4</button></li>
+            <li><button>5</button></li>
+            <li><button>6</button></li>
+            <li><button>7</button></li>
+            <li><button>8</button></li>
+            <li><button>9</button></li>
+            <li><button>10</button></li>
+            <li><button>11</button></li>
+            <li><button>12</button></li>
+            <li><button>13</button></li>
+            <li><button>14</button></li>
+            <li><button>15</button></li>
+            <li><button> </button></li>
+        </ul>
+    </div>
+    <div id="controls">
+    <button id="play-button" onclick="startTimer()"> Jugar </button>
+    <span id="moves">movimientos: <span id = "moveCounter">0</span></span>
+    <span id="timeIndicator">tiempo: <span id="timerCounter">0</span></span>
+    </div>
+    <div id="result">
+    <h3>El juego finalizó en: <span id="result-time"></span></h3>
+    </div>
+</body>
+</html>
