@@ -1,0 +1,6 @@
+article[data-colums='3']{
+    width: 400px;
+}
+article[data-colums='4']{
+    width: 600px;
+}
